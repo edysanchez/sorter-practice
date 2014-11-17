@@ -1,0 +1,11 @@
+{
+    "require": {
+        "behat/behat": "3.*@dev"
+    } ,
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "autoload": {
+        "psr-0": {"Sorter\\" : "src/"}
+    }
+}
